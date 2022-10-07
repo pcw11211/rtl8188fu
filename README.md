@@ -10,11 +10,11 @@ or
 
 `apt-get install build-essential git dkms linux-headers-$(uname -r)`
 
-`git clone -b arm https://github.com/pcw11211/rtl8188fu`
+`git clone https://github.com/pcw11211/rtl8188fu`
 
-`cd ./rtl8188fu-arm`
+`cd ./rtl8188fu`
 
-`make rtl8188fu/1.0`
+`make rtl8188fu`
 
 `install -p -m 644 rtl8188fu.ko /lib/modules/$(uname -r)/kernel/drivers/net/wireless/realtek`
 
