@@ -18,7 +18,7 @@ or
 
 `install -p -m 644 rtl8188fu.ko /lib/modules/$(uname -r)/kernel/drivers/net/wireless/realtek`
 
-`sudo cp ./rtl8188fu-arm/firmware/rtl8188fufw.bin /lib/firmware/rtlwifi/`
+`sudo cp firmware/rtl8188fufw.bin /lib/firmware/rtlwifi/`
 
 ------------------
 
